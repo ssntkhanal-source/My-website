@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Susant Khanal | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+  rel="stylesheet"
+/>
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============== NAVBAR ============== -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner container">
+      <a href="#home" class="logo">Susant Khanal</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#poems">Poems</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+      <button id="navBurger" class="nav-burger" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+    <ul class="nav-links-mobile" id="navLinksMobile">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#poems">Poems</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ============== HERO ============== -->
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <div class="profile-pic-wrap">
+        <img src="images/profile.jpg" alt="Susant Khanal" class="profile-pic" />
+      </div>
+      <h1 class="hero-title">Hi, I'm Susant Khanal</h1>
+      <p class="hero-tagline">Student with a passion for creativity and learning</p>
+
+      <div class="social-icons">
+        <a
+          href="https://www.facebook.com/profile.php?id=61583234648464"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+          class="social-icon"
+        >
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/susant_khanal3/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          class="social-icon"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=ssntkhanal@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Gmail"
+          class="social-icon"
+        >
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+      <a href="#contact" class="btn-white">Connect With Me</a>
+    </div>
+  </header>
+
+  <!-- ============== ABOUT ============== -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="title-underline"></div>
+      <p class="section-subtitle">My journey as a student</p>
+
+      <div class="about-text">
+        <p>
+          I am a dedicated student with a deep passion for learning,
+          innovation, and continuous self-improvement. I love exploring
+          electronics projects, getting hands-on with technology, and writing
+          code to solve real problems.
+        </p>
+        <p>
+          My curiosity drives me to try new things, and my persistence keeps
+          me going even when challenges appear. Every project I take on is a
+          chance to learn something new, and every lesson pushes me closer to
+          becoming the engineer and creator I aspire to be.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== SKILLS ============== -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="title-underline"></div>
+      <p class="section-subtitle">Things I work on and care about</p>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+          <h3>Electronics</h3>
+          <p>Building circuits and prototypes with Arduino — sensors, microcontrollers, and hands-on experiments.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-feather"></i>
+          </div>
+          <h3>Poetry</h3>
+          <p>Writing poems that capture emotions, observations, and quiet moments of everyday life.</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fa-solid fa-fire"></i>
+          </div>
+          <h3>Karmakanda</h3>
+          <p>Studying traditional Vedic rituals — preserving cultural heritage and spiritual practice.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== POEMS ============== -->
+  <section class="section" id="poems">
+    <div class="container">
+      <h2 class="section-title">My Poems</h2>
+      <div class="title-underline"></div>
+      <p class="section-subtitle">A few of my handwritten pieces</p>
+
+      <div class="poems-grid">
+        <div class="poem-card">
+          <div class="poem-thumb" data-full="images/poem1.jpg">
+            <img src="images/poem1.jpg" alt="Handwritten poem 1" loading="lazy" />
+            <div class="poem-overlay">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+          </div>
+          <div class="poem-content">
+            <h3>Poem One</h3>
+            <p>A handwritten piece exploring nature, longing, and quiet reflection.</p>
+            <span class="tag">Handwritten</span>
+            <button class="poem-link" data-full="images/poem1.jpg">
+              <i class="fa-solid fa-book-open"></i> Read poem
+            </button>
+          </div>
+        </div>
+
+        <div class="poem-card">
+          <div class="poem-thumb" data-full="images/poem2.jpg">
+            <img src="images/poem2.jpg" alt="Handwritten poem 2" loading="lazy" />
+            <div class="poem-overlay">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+          </div>
+          <div class="poem-content">
+            <h3>Poem Two</h3>
+            <p>Verses on gratitude and admiration, written from the heart.</p>
+            <span class="tag">Handwritten</span>
+            <button class="poem-link" data-full="images/poem2.jpg">
+              <i class="fa-solid fa-book-open"></i> Read poem
+            </button>
+          </div>
+        </div>
+
+        <div class="poem-card">
+          <div class="poem-thumb" data-full="images/poem3.jpg">
+            <img src="images/poem3.jpg" alt="Handwritten poem 3" loading="lazy" />
+            <div class="poem-overlay">
+              <i class="fa-solid fa-magnifying-glass-plus"></i>
+            </div>
+          </div>
+          <div class="poem-content">
+            <h3>Poem Three (Aama)</h3>
+            <p>A tribute to a mother's love, sacrifice, and quiet strength.</p>
+            <span class="tag">Handwritten</span>
+            <button class="poem-link" data-full="images/poem3.jpg">
+              <i class="fa-solid fa-book-open"></i> Read poem
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============== LIGHTBOX ============== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <img src="" alt="Poem full view" id="lightboxImg" class="lightbox-img" />
+  </div>
+
+  <!-- ============== CONTACT ============== -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Connect With Me</h2>
+      <div class="title-underline"></div>
+      <p class="section-subtitle">Interested in reaching out? I'd love to hear from you.</p>
+
+      <div class="social-icons social-icons-light">
+        <a
+          href="https://www.facebook.com/profile.php?id=61583234648464"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+          class="social-icon-light"
+        >
+          <i class="fa-brands fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/susant_khanal3/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          class="social-icon-light"
+        >
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=ssntkhanal@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Gmail"
+          class="social-icon-light"
+        >
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+
+      <form class="contact-form" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your.email@example.com" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What is this regarding?" required />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" placeholder="Your message here..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn-primary">
+          <i class="fa-solid fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============== FOOTER ============== -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Susant Khanal · Designed with curiosity & persistence.</p>
+  </footer>
+
+  <!-- ============== BACK TO TOP ============== -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
